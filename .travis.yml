@@ -1,7 +1,8 @@
 language: python
 python:
    - "3.5"
-
+install:
+   - pip install coveralls
 # script to run tests
 script: python3 -m unittest test_rpn.py 
-# after_success: coveralls
+after_success: coveralls
