@@ -2,6 +2,7 @@
 import unittest
 
 import rpn
+from colorama import Fore
 
 class TestBasics(unittest.TestCase):
     def test_add(self):
