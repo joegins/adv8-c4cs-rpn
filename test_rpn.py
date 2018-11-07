@@ -25,7 +25,7 @@ class TestBasics(unittest.TestCase):
         print(Fore.GREEN, result)
         self.assertEqual(2, result)
     def test_carat(self):
-    	result = rpn.calculate("3 3 ^")
+        result = rpn.calculate("3 3 ^")
         print(Fore.RED + '3 3 ^')
         print(Fore.GREEN, result)
     	self.assertEqual(27, result)
