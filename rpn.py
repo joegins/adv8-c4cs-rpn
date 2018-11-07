@@ -30,7 +30,6 @@ def calculate(myarg):
             arg1 = stack.pop()
             result = function(arg1, arg2)
             stack.append(result)
-        print(Fore.RED, stack)
     if len(stack) != 1:
         raise TypeError("Too many parameters")
     return stack.pop()
