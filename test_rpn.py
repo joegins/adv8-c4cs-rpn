@@ -28,4 +28,4 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("3 3 ^")
         print(Fore.RED + '3 3 ^')
         print(Fore.GREEN, result)
-    	self.assertEqual(27, result)
+        self.assertEqual(27, result)
