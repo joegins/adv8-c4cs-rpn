@@ -11,6 +11,12 @@ operators = {
     '^': operator.pow,
 }
 
+def func():
+    for i in range (0,10):
+        j = i+1
+    if(True):
+    	print 'Hello my name is Jonas'
+
 def calculate(myarg):
     stack = list()
     for token in myarg.split():
